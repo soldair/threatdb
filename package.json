@@ -1,0 +1,24 @@
+{
+  "name": "logserver",
+  "description": "stream all your logs from any point in time and tail",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/soldair/logserver.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "Ryan Day",
+  "dependencies": {
+    "split": "~0.2.10",
+    "through": "~2.3.4",
+    "through2": "~0.2.1",
+    "monotonic-timestamp": "0.0.8",
+    "uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "tap": "~0.2.5",
+    "tape": "~1.1.0"
+  }
+}
