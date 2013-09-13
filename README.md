@@ -1,5 +1,7 @@
-logserver
-=========
+this is a work in progress nothing is right yet.
+
+threatdb
+========
 
 
 goals: a database
